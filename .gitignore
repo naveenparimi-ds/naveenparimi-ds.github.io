@@ -4,3 +4,7 @@
 **/.DS_Store
 
 /.quarto/
+# Ignore system/dependency packages
+*.deb
+*.zip
+*.tar.gz
