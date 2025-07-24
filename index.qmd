@@ -14,8 +14,16 @@ resources:
 
 # Welcome to My Portfolio
 
-Hello, myself Naveen Krishna. I am working as Data Scientist at [Tiger Analytics](https://www.tigeranalytics.com/), based in Hyderabad, India. With a eight years of industry experience, I bring expertise in tackling diverse analytical challenges across various domains and empowering the business to make data-driven decisions.
+## 👋 Hello, I'm Naveen Krishna
 
-Here, you will find updates on my career journey, insightful blog posts and tutorials covering a wide range of topics relevant to my expertise.
+I’m a **Data Scientist** at [Tiger Analytics](https://www.tigeranalytics.com/), based in **Hyderabad, India**. With **8 years of industry experience**, I specialize in solving complex analytical problems, building scalable data science solutions, and enabling organizations to make informed, data-driven decisions.
 
-Thank you for taking the time to explore my portfolio. Feel free to drop an e-mail @ [naveen.parimi95@gmail.com](mailto:naveen.parimi95@gmail.com) if you have any questions or opportunities for collaboration.
+This portfolio is a curated space where I share:
+- My **career journey and achievements**
+- **Projects and case studies** from real-world implementations
+- Occasional **blog posts and tutorials** covering data science, AI, machine learning, and cloud analytics
+
+---
+
+Thank you for stopping by!  
+Feel free to reach out at [naveen.parimi95@gmail.com](mailto:naveen.parimi95@gmail.com) — I’m always open to meaningful conversations, collaborations, or opportunities to make an impact through data.
