@@ -18,8 +18,6 @@ website:
         text: Home
       # - href: posts.qmd
       #   text: Blog
-      # - href: tutorials.qmd
-      #   text: Tutorials
       - href: projects.qmd
         text: Projects
       - href: resume.qmd
