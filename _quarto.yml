@@ -9,17 +9,17 @@ execute:
   freeze: auto
 
 website:
-  title: "Koushik Khan"
-  site-url: "https://koushikkhan.github.io/" # makes site links work on your remote site
+  title: "Parimi Naveen Krishna"
+  site-url: "https://naveenparimi-ds.github.io/" # makes site links work on your remote site
   favicon: "resources/img/favicon.png"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: posts.qmd
-        text: Blog
-      - href: tutorials.qmd
-        text: Tutorials
+      # - href: posts.qmd
+      #   text: Blog
+      # - href: tutorials.qmd
+      #   text: Tutorials
       - href: projects.qmd
         text: Projects
       - href: resume.qmd
@@ -28,13 +28,11 @@ website:
 
     right:
       - text: "{{< fa envelope size=large >}}"
-        href: mailto:koushik.khan.ds@gmail.com
+        href: mailto:naveen.parimi95@gmail.com@gmail.com
       - text: "{{< fa brands linkedin-in size=large >}}"
-        href: https://linkedin.com/in/koushikkhan/
-      - text: "{{< fa brands x-twitter size=large >}}"
-        href: https://x.com/koushikkhan92/
+        href: https://linkedin.com/in/pnaveenkrishna/
       - text: "{{< fa brands github size=large >}}"
-        href: https://www.github.com/koushikkhan/
+        href: https://www.github.com/naveenparimi-ds/
 
 format:
   html:
