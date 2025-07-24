@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A data scientist by profession, an avid learner and a techie by heart.">
 
-<title>Parimi Naveen Krishna</title>
+<title>Blog Posts – Parimi Naveen Krishna</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,10 +31,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./resources/img/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-265de45eb6cd83cfc12e0465bebb4b45.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,14 +72,92 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: flase;
+      }
+</style>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -92,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -129,44 +209,232 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog Posts</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y2xvdWQ=">cloud <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGVlcCUyMGxlYXJuaW5n">deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bGludXg=">linux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Parimi Naveen Krishna</h1>
-</div>
-<div>
-  <div class="description">
-    A data scientist by profession, an avid learner and a techie by heart.
-  </div>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="welcome-to-my-portfolio" class="level1">
-<h1>Welcome to My Portfolio</h1>
-<p>Hello, myself Naveen Krishna. I am working as Data Scientist at <a href="https://www.tigeranalytics.com/">Tiger Analytics</a>, based in Hyderabad, India. With a eight years of industry experience, I bring expertise in tackling diverse analytical challenges across various domains and empowering the business to make data-driven decisions.</p>
-<p>Here, you will find updates on my career journey, insightful blog posts and tutorials covering a wide range of topics relevant to my expertise.</p>
-<p>Thank you for taking the time to explore my portfolio. Feel free to drop an e-mail @ <a href="mailto:naveen.parimi95@gmail.com">naveen.parimi95@gmail.com</a> if you have any questions or opportunities for collaboration.</p>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</section>
-</main></div>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-    <img src="resources/img/naveen-2024.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
 </div>
- <!-- /main -->
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="ZGVlcCUyMGxlYXJuaW5n" data-listing-date-sort="1682899200000" data-listing-file-modified-sort="1753362248941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2801">
+<div class="thumbnail"><a href="./posts/2023-05-01-embeddings/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2023-05-01-embeddings/text.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-05-01-embeddings/index.html" class="no-external">Make More Sense of Language Through Embeddings</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2023-05-01-embeddings/index.html" class="no-external">
+<p>Representing texts in a better way that neural networks understand</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-05-01-embeddings/index.html" class="no-external">
+<div class="listing-date">
+May 1, 2023
+</div>
+<div class="listing-author">
+Koushik Khan
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ZGVlcCUyMGxlYXJuaW5n" data-listing-date-sort="1682121600000" data-listing-file-modified-sort="1753362248940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4762">
+<div class="thumbnail"><a href="./posts/2023-04-22-autograd/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2023-04-22-autograd/network.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-04-22-autograd/index.html" class="no-external">Gradient Calculation Through Computational Graph</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2023-04-22-autograd/index.html" class="no-external">
+<p>The way, deep neural networks learn</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-04-22-autograd/index.html" class="no-external">
+<div class="listing-date">
+Apr 22, 2023
+</div>
+<div class="listing-author">
+Koushik Khan
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="bGludXglMkNjbG91ZA==" data-listing-date-sort="1679788800000" data-listing-file-modified-sort="1753362248939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1620">
+<div class="thumbnail"><a href="./posts/2023-03-26-bash-commands-for-cloud-2/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2023-03-26-bash-commands-for-cloud-2/cloud.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-03-26-bash-commands-for-cloud-2/index.html" class="no-external">Bash Commands to Get Started on Linux Clouds</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGludXg='); return false;">linux</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xvdWQ='); return false;">cloud</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2023-03-26-bash-commands-for-cloud-2/index.html" class="no-external">
+<p>Part 2: Advanced Tools for Commandline</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-26-bash-commands-for-cloud-2/index.html" class="no-external">
+<div class="listing-date">
+Mar 26, 2023
+</div>
+<div class="listing-author">
+Koushik Khan
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="bGludXglMkNjbG91ZA==" data-listing-date-sort="1679443200000" data-listing-file-modified-sort="1753362248929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2552">
+<div class="thumbnail"><a href="./posts/2023-03-22-bash-commands-for-cloud-1/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2023-03-22-bash-commands-for-cloud-1/cloud.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-03-22-bash-commands-for-cloud-1/index.html" class="no-external">Bash Commands to Get Started on Linux Clouds</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGludXg='); return false;">linux</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xvdWQ='); return false;">cloud</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2023-03-22-bash-commands-for-cloud-1/index.html" class="no-external">
+<p>Part 1: Basics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-22-bash-commands-for-cloud-1/index.html" class="no-external">
+<div class="listing-date">
+Mar 22, 2023
+</div>
+<div class="listing-author">
+Koushik Khan
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="c3RhdGlzdGljcw==" data-listing-date-sort="1679184000000" data-listing-file-modified-sort="1753362248920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1712">
+<div class="thumbnail"><a href="./posts/2023-03-19-stat-hypothesis-test/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2023-03-19-stat-hypothesis-test/numbers.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-03-19-stat-hypothesis-test/index.html" class="no-external">Testing of Hypotheses: A Quick Refresher</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2023-03-19-stat-hypothesis-test/index.html" class="no-external">
+<p>Part 1: Basics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-19-stat-hypothesis-test/index.html" class="no-external">
+<div class="listing-date">
+Mar 19, 2023
+</div>
+<div class="listing-author">
+Koushik Khan
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
