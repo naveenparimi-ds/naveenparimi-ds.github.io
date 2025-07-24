@@ -18,6 +18,5 @@ resources:
 
 ## {{< fa umbrella-beach >}} Things I Love Apart From Work
 + Playing Cricket, Basketball
-+ Reading books
 + Listening to Music
 + Travelling
