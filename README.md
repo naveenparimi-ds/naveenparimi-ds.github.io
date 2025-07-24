@@ -2,7 +2,7 @@
 
 Hi there,
 
-Thanks for having a look at the backend of my [portfolio](https://koushikkhan.github.io/).
+Thanks for having a look at the backend of my [portfolio](https://naveenparimi-ds.github.io/).
 
 I maintain this portfolio to showcase my technical skills and related personal projects to the community, along with publishing articles (blog posts) on various topics I work with.
 
