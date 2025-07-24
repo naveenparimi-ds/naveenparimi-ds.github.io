@@ -1,9 +1,9 @@
 ---
-title: "Koushik Khan"
+title: "Parimi Naveen Krishna"
 description: "A data scientist by profession, an avid learner and a techie by heart."
 from: markdown+emoji
 toc: false
-image: "resources/img/koushik-2024.jpg"
+image: "resources/img/naveen-2024.jpg"
 about:
   template: solana
   image-shape: round
@@ -14,8 +14,8 @@ resources:
 
 # Welcome to My Portfolio
 
-Hello, myself Koushik. I am working as Lead Data Scientist at [Tiger Analytics](https://www.tigeranalytics.com/), based in Bangalore, India. With a decade of industry experience, I bring expertise in tackling diverse analytical challenges across various domains and empowering the business to make data-driven decisions.
+Hello, myself Naveen Krishna. I am working as Data Scientist at [Tiger Analytics](https://www.tigeranalytics.com/), based in Hyderabad, India. With a eight years of industry experience, I bring expertise in tackling diverse analytical challenges across various domains and empowering the business to make data-driven decisions.
 
 Here, you will find updates on my career journey, insightful blog posts and tutorials covering a wide range of topics relevant to my expertise.
 
-Thank you for taking the time to explore my portfolio. Feel free to drop an e-mail @ [koushik.khan.ds@gmail.com](mailto:koushik.khan.ds@gmail.com) if you have any questions or opportunities for collaboration.
+Thank you for taking the time to explore my portfolio. Feel free to drop an e-mail @ [naveen.parimi95@gmail.com](mailto:naveen.parimi95@gmail.com) if you have any questions or opportunities for collaboration.
