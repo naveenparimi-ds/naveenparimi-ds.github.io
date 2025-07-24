@@ -10,13 +10,30 @@ resources:
 + B.Tech. in CSE (2017) - NIIT University, India
 
 ## {{< fa user-tie >}} Professional Career History
-+ Data Scientist at Tiger Analytics India Consulting Pvt. Ltd. (Sep, 2019 - Present)
++ **Data Scientist** at *Tiger Analytics India Consulting Pvt. Ltd.*, Hyderabad, India  
+  _(Sep 2019 – Present)_
+
++ **Data Science Analyst** at *AlgoLeap Technologies Pvt Ltd*, Hyderabad, India  
+  _(Sep 2018 – Aug 2019)_
+
++ **Data Analyst** at *AltairQ*, Hyderabad, India  
+  _(Sep 2017 – Aug 2018)_
+
++ **Data Science Intern** at *Kellton Tech Solutions Ltd*, Hyderabad, India  
+  _(Jan 2017 – Jun 2017)_
+
 
 ## {{< fa laptop >}} Current Job Responsibilities
-+ Leading various cross functional analytics initiatives
-+ Developing solutions for various customer facing engagements
++ Leading cross-functional analytics initiatives involving marketing, sales, and product teams  
++ Designing and implementing data science solutions for customer-facing business problems  
++ Building predictive models and data pipelines to drive decision-making and operational efficiency  
++ Working with tools like Python, PySpark, SQL, and cloud platforms (Azure, Databricks)  
++ Translating complex data into actionable insights and visualizations for stakeholders  
++ Collaborating in agile environments with product owners, data engineers, and business analysts
 
 ## {{< fa umbrella-beach >}} Things I Love Apart From Work
-+ Playing Cricket, Basketball
-+ Listening to Music
-+ Travelling
++ 🏏 **Playing Cricket** – my go-to weekend passion to stay active and collaborative  
++ 🏀 **Basketball** – love the strategy, speed, and teamwork it brings  
++ 🌱 **Mentoring** – I occasionally mentor aspiring data professionals on career growth
++ 🎧 **Listening to Podcasts** – topics I love: AI breakthroughs, tech trends, and career advice  
++ 📚 **Learning AI & Data Science** – staying current through online courses, blogs, and research papers  
