@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://naveenparimi-ds.github.io/projects.html</loc>
-    <lastmod>2025-07-24T15:26:46.104Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts.html</loc>
-    <lastmod>2025-07-24T15:26:46.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts/2023-03-22-bash-commands-for-cloud-1/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts/2023-03-26-bash-commands-for-cloud-2/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.100Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/tutorials.html</loc>
-    <lastmod>2025-07-24T15:26:46.139Z</lastmod>
-  </url>
-  <url>
     <loc>https://naveenparimi-ds.github.io/about.html</loc>
-    <lastmod>2025-07-24T15:26:46.079Z</lastmod>
+    <lastmod>2026-05-23T05:13:13.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/projects.html</loc>
+    <lastmod>2026-05-23T05:13:13.418Z</lastmod>
   </url>
   <url>
     <loc>https://naveenparimi-ds.github.io/resume.html</loc>
-    <lastmod>2025-07-24T15:26:46.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts/2023-05-01-embeddings/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts/2023-03-19-stat-hypothesis-test/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://naveenparimi-ds.github.io/posts/2023-04-22-autograd/index.html</loc>
-    <lastmod>2025-07-24T15:26:46.100Z</lastmod>
+    <lastmod>2026-05-23T05:13:13.449Z</lastmod>
   </url>
   <url>
     <loc>https://naveenparimi-ds.github.io/bookmarks.html</loc>
-    <lastmod>2025-07-24T15:26:46.079Z</lastmod>
+    <lastmod>2026-05-23T05:13:13.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts/2023-03-26-bash-commands-for-cloud-2/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts/2023-03-19-stat-hypothesis-test/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts/2023-03-22-bash-commands-for-cloud-1/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts/2023-05-01-embeddings/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts/2023-04-22-autograd/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/index.html</loc>
+    <lastmod>2026-05-23T05:13:13.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/tutorials.html</loc>
+    <lastmod>2026-05-23T05:13:13.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://naveenparimi-ds.github.io/posts.html</loc>
+    <lastmod>2026-05-23T05:13:13.396Z</lastmod>
   </url>
 </urlset>
