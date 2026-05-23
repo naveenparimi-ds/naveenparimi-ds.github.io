@@ -11,7 +11,7 @@ resources:
 
 ## {{< fa user-tie >}} Professional Career History
 + **Data Scientist** at *Tiger Analytics India Consulting Pvt. Ltd.*, Hyderabad, India  
-  _(Sep 2019 – Present)_
+  _(Sep 2019 – Apr 2026)_
 
 + **Data Science Analyst** at *AlgoLeap Technologies Pvt Ltd*, Hyderabad, India  
   _(Sep 2018 – Aug 2019)_
