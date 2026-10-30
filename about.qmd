@@ -10,6 +10,9 @@ resources:
 + B.Tech. in CSE (2017) - NIIT University, India
 
 ## {{< fa user-tie >}} Professional Career History
++ **Senior Specialist - Data Sciences** at *LTM Limited*, Hyderabad, India  
+  _(Apr 2026 – Present)_
+
 + **Data Scientist** at *Tiger Analytics India Consulting Pvt. Ltd.*, Hyderabad, India  
   _(Sep 2019 – Apr 2026)_
 

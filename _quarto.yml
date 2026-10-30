@@ -20,8 +20,8 @@ website:
       #   text: Blog
       - href: projects.qmd
         text: Projects
-      - href: resume.qmd
-        text: Resume
+      - href: https://linkedin.com/in/pnaveenkrishna/
+        text: LinkedIn
       - href: about.qmd
 
     right:
